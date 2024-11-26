@@ -1,0 +1,5 @@
+mkdir docs
+mv index.html docs/
+mv лес.jpg docs/
+mv яичный.png docs/
+mv магазин.jpg docs/
