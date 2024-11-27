@@ -47,12 +47,12 @@
             margin: 0;
         }
         header p {
-            font-family: "Hero", serif; /* Шрифт текста */
-            font-size: 2.2em; /* Размер текста */
-            line-height: 1.5; /* Межстрочный интервал */
-            text-align: left; /* Выравнивание по левому краю */
-            padding-left: 20px; /* Отступ слева */
-            margin-top: 100px; /* Увеличиваем отступ сверху */
+    font-family: "Hero", serif; /* Шрифт текста */
+    font-size: 2.2em; /* Размер текста */
+    line-height: 1.5; /* Межстрочный интервал */
+    text-align: left; /* Выравнивание по левому краю */
+    padding-left: 20px; /* Отступ слева */
+    margin-top: 100px; /* Увеличиваем отступ сверху */
         }
 
         /* Логотип и название */
@@ -77,7 +77,7 @@
         }
 
         /* Меню */
-        nav {
+nav {
             display: flex;
             justify-content: flex-end; /* Перемещаем меню вправо */
             align-items: center;
@@ -113,41 +113,43 @@
             margin-left: 20px; /* Отступ между меню и кнопками */
         }
 
-        nav .auth a {
-            padding: 5px 15px;
-            border-radius: 20px; /* Более округлые кнопки */
-            font-size: 1.0em;
-            border: 2px solid white; /* Белая рамка для кнопок */
-            text-align: center;
-            transition: background 0.3s ease, color 0.3s ease;
-        }
+nav .auth a {
+    padding: 5px 15px;
+    border-radius: 20px; /* Более округлые кнопки */
+    font-size: 1.0em;
+    border: 2px solid white; /* Белая рамка для кнопок */
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+}
 
-        nav .auth .login {
-            background: transparent;
-            color: white;
-        }
+nav .auth .login {
+    background: transparent;
+    color: white;
+}
 
-        nav .auth .login:hover {
-            background: white;
-            color: black;
-        }
+nav .auth .login:hover {
+    background: white;
+    color: black;
+}
 
-        nav .auth .signup {
-            background-color: #007bff;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 1.0em;
-            margin-right: 20px; /* Отступ от правого края */
-            border: 2px solid white;
-            text-align: center;
-            transition: background 0.3s ease, color 0.3s ease;
-        }
+nav .auth .signup {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1.0em;
+    margin-right: 20px; /* Отступ от правого края */
+    border: 2px solid white;
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+}
 
-        nav .auth .signup:hover {
-            background: white;
-            color: #007bff;
-        }
+
+nav .auth .signup:hover {
+    background: white;
+    color: #007bff;
+}
+
 
         /* Карточки */
         .container {
@@ -216,16 +218,16 @@
 </head>
 <body>
     <nav>
-        <div class="menu">
-            <a href="about:blank" target="_blank">Главная</a>
-            <a href="about:blank" target="_blank">Доска заказов</a>
-            <a href="about:blank" target="_blank">Магазин</a>
-        </div>
-        <div class="auth">
-            <a href="about:blank" target="_blank" class="login">Login</a>
-            <a href="about:blank" target="_blank" class="signup">Sign Up</a>
-        </div>
-    </nav>
+    <div class="menu">
+        <a href="about:blank" target="_blank">Главная</a>
+        <a href="about:blank" target="_blank">Доска заказов</a>
+        <a href="about:blank" target="_blank">Магазин</a>
+    </div>
+    <div class="auth">
+        <a href="about:blank" target="_blank" class="login">Login</a>
+        <a href="singup.html" target="_blank" class="signup">Sign Up</a>
+    </div>
+  </nav>
     <div class="logo-container">
         <img src="яичный.png" alt="Логотип Орёл">
         <h1>HAWK EYE</h1>
@@ -234,26 +236,27 @@
         <p>Мы заботимся о каждом!<br>Получи поддержку прямо сейчас!<br>Следи за своими запасами вместе с нами!<br>По всей Якутии!</p>
     </header>
     <div class="container">
-        <div class="card">
-            <h3>Доска заказов</h3>
-            <img src="заказы.jpg" alt="Доска заказов">
-            <p>Сделайте заказ необходимых вам товаров, который доставит другой пользователь.</p>
-            <a href="about:blank" target="_blank">
-                <button>Перейти</button>
-            </a>
-        </div>
-        <div class="card">
-            <h3>Магазин</h3>
-            <img src="магазин.jpg" alt="Магазин">
-            <p>Закажите продукты, лекарства, строй материалы из ближайших магазинов наших партнёров.</p>
-            <a href="about:blank" target="_blank">
-                <button>Перейти</button>
-            </a>
-        </div>
+ <div class="card">
+    <h3>Доска заказов</h3>
+    <img src="заказы.jpg" alt="Доска заказов">
+    <p>Сделайте заказ необходимых вам товаров, который доставит другой пользователь.</p>
+    <a href="about:blank" target="_blank">
+        <button>Перейти</button>
+    </a>
+</div>
+<div class="card">
+    <h3>Магазин</h3>
+    <img src="магазин.jpg" alt="Магазин">
+    <p>Закажите продукты, лекарства, строй материалы из ближайших магазинов наших партнёров.</p>
+    <a href="about:blank" target="_blank">
+        <button>Перейти</button>
+    </a>
     </div>
     <footer>
+        </div>
         <p>ООО «Hawk Eye» с целью персонализации сервисов и повышения удобства пользования сайтом использует файлы cookies. Продолжая просматривать сайт, вы соглашаетесь с данными условиями.</p>
         <p>Контакты: 8 800 555-55-55</p>
     </footer>
 </body>
 </html>
+
